@@ -39,7 +39,7 @@ button:hover {
 #leftHeading3 {
   position: absolute;
   left: 20px; /* Adjust the left positioning as needed */
-  font-size: 40px; /* Adjust the font size as needed */
+  font-size: 28px; /* Adjust the font size as needed */
   font-family: "Press Start 2P", cursive;
   color: #eeeeee;
 }
