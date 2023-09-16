@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>Self-driving car - No libraries</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+<body>
+    <div id="leftHeading1">Self-Driving Car</div>
+    <div id="leftHeading2">using</div>
+    <div id="leftHeading3">Neural Networks</div>    
+    <canvas id="carCanvas"></canvas>
+    <div id="verticalButtons">
+        <button onclick="save()"><i class="fas fa-save"></i></button>
+        <button onclick="discard()"><i class="fas fa-trash-alt"></i></button>
+    </div>
+    <canvas id="networkCanvas"></canvas>
+    <script src="obstacle.js"></script>
+    <script src="visualizer.js"></script>
+    <script src="network.js"></script>
+    <script src="sensor.js"></script>
+    <script src="utils.js"></script>
+    <script src="road.js"></script>
+    <script src="controls.js"></script>
+    <script src="car.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
